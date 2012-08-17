@@ -9,4 +9,5 @@
 <MODE NAME="cucumber_en_lol" FILE="cucumber_en_lol.xml" />
 <MODE NAME="cucumber_en" FILE="cucumber_en.xml" /> 
 <MODE NAME="cucumber_no" FILE="cucumber_no.xml" /> 
+<MODE NAME="cucumber_it" FILE="cucumber_it.xml" /> 
 </MODES>

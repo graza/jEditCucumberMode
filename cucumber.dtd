@@ -6,19 +6,27 @@
     <PROPERTY NAME="indentSize" VALUE="2"/>
     <PROPERTY NAME="folding" VALUE="indent"/>
     <PROPERTY NAME="noWordSep" VALUE="_-"/>
-    <PROPERTY NAME="indentNextLines" 
-              VALUE="^\s*(&feature;|&scenario;|&scenario_outline;|&background;|&examples;)\s*:.*$" />
+    <PROPERTY NAME="indentNextLine" 
+              VALUE="\s*(&feature;|&scenario;|&background;|&scenario_outline;|&examples;)\s*:" />
     <PROPERTY NAME="lineComment" VALUE="#"/>
+    <!-- PROPERTY NAME="unindentThisLine"
+    	VALUE="^\s*(&scenario;|&background;|&scenario_outline;|&examples;)" />
+    <PROPERTY NAME="electricKeys" VALUE=":" / -->
   </PROPS>
 '>
-<!ENTITY cucumber '
+<!ENTITY gherkin_rules '
   <RULES SET="gherkin"
     ESCAPE="\"
-    IGNORE_CASE="TRUE"
+    IGNORE_CASE="FALSE"
     HIGHLIGHT_DIGITS="TRUE"
     NO_WORD_SEP="-&#37;">
-    <SEQ_REGEXP TYPE="KEYWORD2">in\s+order\s+to</SEQ_REGEXP>
-    <SEQ_REGEXP TYPE="KEYWORD2" AT_LINE_START="TRUE">\s*(&feature;|&given;|&when;|&then;|&but;|&and;)</SEQ_REGEXP>
+    <SEQ_REGEXP TYPE="KEYWORD1" AT_LINE_START="TRUE">\s*(&feature;)(?=\s*:)</SEQ_REGEXP>
+    <SEQ_REGEXP TYPE="KEYWORD2" AT_LINE_START="TRUE">\s*(&scenario;)(?=\s*:)</SEQ_REGEXP>
+    <SEQ_REGEXP TYPE="KEYWORD2" AT_LINE_START="TRUE">\s*(&background;)(?=\s*:)</SEQ_REGEXP>
+    <SEQ_REGEXP TYPE="KEYWORD2" AT_LINE_START="TRUE">\s*(&scenario_outline;)(?=\s*:)</SEQ_REGEXP>
+    <SEQ_REGEXP TYPE="KEYWORD2" AT_LINE_START="TRUE">\s*(&examples;)(?=\s*:)</SEQ_REGEXP>
+    <SEQ_REGEXP TYPE="KEYWORD3" AT_LINE_START="TRUE">\s*(&step;)</SEQ_REGEXP>
+    <EOL_SPAN TYPE="COMMENT1" AT_WHITESPACE_END="TRUE">&#35;</EOL_SPAN>
     <SEQ TYPE="OPERATOR">[</SEQ>
     <SEQ TYPE="OPERATOR">]</SEQ>
     <SEQ TYPE="OPERATOR">(</SEQ>
@@ -31,12 +39,5 @@
       <BEGIN>&#39;</BEGIN>
       <END>&#39;</END>
     </SPAN>
-    <SEQ TYPE="KEYWORD3">&scenario_outline;</SEQ>
-    <KEYWORDS>
-      <KEYWORD3>&feature;</KEYWORD3>
-      <KEYWORD3>&background;</KEYWORD3>
-      <KEYWORD3>&scenario;</KEYWORD3>
-      <KEYWORD3>&examples;</KEYWORD3>
-    </KEYWORDS>
   </RULES>
 '>

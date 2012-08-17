@@ -6,12 +6,8 @@
 <!ENTITY scenario "MISHUN">
 <!ENTITY scenario_outline "MISHUN SRSLY">
 <!ENTITY examples "EXAMPLZ">
-<!ENTITY given "I CAN HAZ ">
-<!ENTITY when "WEN ">
-<!ENTITY then "DEN ">
-<!ENTITY and "AN ">
-<!ENTITY but "BUT ">
+<!ENTITY step "I CAN HAZ |WEN |DEN |AN |BUT |\* ">
 %cucumber_pe;
 ]>
 <MODE>&props;
-&cucumber;</MODE>
+&gherkin_rules;</MODE>

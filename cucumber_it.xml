@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
 <!DOCTYPE MODE SYSTEM "xmode.dtd" [
 <!ENTITY % cucumber_pe SYSTEM "..\..\Users\gagnew\AppData\Roaming\jEdit\modes\cucumber.dtd">
-<!ENTITY feature "Egenskap">
-<!ENTITY background "Bakgrunn">
+<!ENTITY feature "Funzionalit(à|á)">
+<!ENTITY background "Contesto">
 <!ENTITY scenario "Scenario">
-<!ENTITY scenario_outline "Scneariomal|Abstrakt Scenario">
-<!ENTITY examples "Eksempler">
-<!ENTITY step "Gitt |Når |Så |Og |Men |\* ">
+<!ENTITY scenario_outline "Schema dello scenario">
+<!ENTITY examples "Esempi">
+<!ENTITY step "Dato |Data |Dati |Date |Quando |Allora |E |Ma |\* ">
 %cucumber_pe;
 ]>
 <MODE>&props;

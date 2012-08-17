@@ -1,22 +1,35 @@
 <?xml version="1.0" ?>
-<!DOCTYPE MODE SYSTEM "xmode.dtd" [
-<!ENTITY % cucumber_pe SYSTEM "..\..\Users\gagnew\AppData\Roaming\jEdit\modes\cucumber.dtd">
-]>
+<!DOCTYPE MODE SYSTEM "xmode.dtd">
 <MODE> 
-&props;
-  <RULES>
-    <SPAN_REGEXP DELEGATE="cucumber_en::gherkin" HASH_CHAR="#">
-      <BEGIN>\A#\s*language\s*:\s*en$</BEGIN>
+  <PROPS>
+    <PROPERTY NAME="noTabs" VALUE="true"/>
+    <PROPERTY NAME="wrap" VALUE="none"/>
+    <PROPERTY NAME="tabSize" VALUE="2"/>
+    <PROPERTY NAME="indentSize" VALUE="2"/>
+    <PROPERTY NAME="folding" VALUE="indent"/>
+    <PROPERTY NAME="noWordSep" VALUE="_-"/>
+  </PROPS>
+  <RULES
+    ESCAPE="\"
+    IGNORE_CASE="FALSE"
+    HIGHLIGHT_DIGITS="TRUE"
+    NO_WORD_SEP="-&#37;">
+    <SPAN_REGEXP DELEGATE="cucumber_en::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*en$</BEGIN> 
       <END REGEXP="TRUE">\Z</END>
     </SPAN_REGEXP>
-    <SPAN_REGEXP DELEGATE="cucumber_en_lol::gherkin" HASH_CHAR="#">
+    <SPAN_REGEXP DELEGATE="cucumber_en_lol::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
       <BEGIN>\A#\s*language\s*:\s*en-lol$</BEGIN>
       <END REGEXP="TRUE">\Z</END>
     </SPAN_REGEXP>
-    <SPAN_REGEXP DELEGATE="cucumber_no::gherkin" HASH_CHAR="#">
+    <SPAN_REGEXP DELEGATE="cucumber_no::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
       <BEGIN>\A#\s*language\s*:\s*no$</BEGIN>
       <END REGEXP="TRUE">\Z</END>
     </SPAN_REGEXP>
-    <IMPORT DELEGATE="cucumber_en::gherkin" />
+    <SPAN_REGEXP DELEGATE="cucumber_it::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*it$</BEGIN>
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <IMPORT DELEGATE="cucumber_en::gherkin"/>
   </RULES>
 </MODE>
