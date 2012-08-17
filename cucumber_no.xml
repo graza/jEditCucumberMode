@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MODE SYSTEM "xmode.dtd" [
+<!ENTITY % cucumber_pe SYSTEM "..\..\Users\gagnew\AppData\Roaming\jEdit\modes\cucumber.dtd">
+<!ENTITY feature "Egenskap">
+<!ENTITY background "Bakgrunn">
+<!ENTITY scenario "Scenario">
+<!ENTITY scenario_outline "Abstrakt Scenario">
+<!ENTITY examples "Eksempler">
+<!ENTITY given "Gitt ">
+<!ENTITY when "Når ">
+<!ENTITY then "Så ">
+<!ENTITY and "Og ">
+<!ENTITY but "Men ">
+%cucumber_pe;
+]>
+<MODE>&props;
+&cucumber;</MODE>

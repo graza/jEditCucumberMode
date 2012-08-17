@@ -1,0 +1,42 @@
+<!ENTITY props '
+  <PROPS>
+    <PROPERTY NAME="noTabs" VALUE="true"/>
+    <PROPERTY NAME="wrap" VALUE="none"/>
+    <PROPERTY NAME="tabSize" VALUE="2"/>
+    <PROPERTY NAME="indentSize" VALUE="2"/>
+    <PROPERTY NAME="folding" VALUE="indent"/>
+    <PROPERTY NAME="noWordSep" VALUE="_-"/>
+    <PROPERTY NAME="indentNextLines" 
+              VALUE="^\s*(&feature;|&scenario;|&scenario_outline;|&background;|&examples;)\s*:.*$" />
+    <PROPERTY NAME="lineComment" VALUE="#"/>
+  </PROPS>
+'>
+<!ENTITY cucumber '
+  <RULES SET="gherkin"
+    ESCAPE="\"
+    IGNORE_CASE="TRUE"
+    HIGHLIGHT_DIGITS="TRUE"
+    NO_WORD_SEP="-&#37;">
+    <SEQ_REGEXP TYPE="KEYWORD2">in\s+order\s+to</SEQ_REGEXP>
+    <SEQ_REGEXP TYPE="KEYWORD2" AT_LINE_START="TRUE">\s*(&feature;|&given;|&when;|&then;|&but;|&and;)</SEQ_REGEXP>
+    <SEQ TYPE="OPERATOR">[</SEQ>
+    <SEQ TYPE="OPERATOR">]</SEQ>
+    <SEQ TYPE="OPERATOR">(</SEQ>
+    <SEQ TYPE="OPERATOR">)</SEQ>
+    <SPAN TYPE="LITERAL1" NO_LINE_BREAK="TRUE">
+      <BEGIN>"</BEGIN>
+      <END>"</END>
+    </SPAN>
+    <SPAN TYPE="LITERAL1" NO_LINE_BREAK="TRUE">
+      <BEGIN>&#39;</BEGIN>
+      <END>&#39;</END>
+    </SPAN>
+    <SEQ TYPE="KEYWORD3">&scenario_outline;</SEQ>
+    <KEYWORDS>
+      <KEYWORD3>&feature;</KEYWORD3>
+      <KEYWORD3>&background;</KEYWORD3>
+      <KEYWORD3>&scenario;</KEYWORD3>
+      <KEYWORD3>&examples;</KEYWORD3>
+    </KEYWORDS>
+  </RULES>
+'>
