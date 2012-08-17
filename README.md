@@ -7,7 +7,33 @@ switch to appropriate keywords when the language is specified at the top
 of the file.  This happens dynamically as the "# language:" set at the top
 of the file is changed.
 
-The language defaults to English if it can't be mathed.
+The language defaults to English if it can't be matched.
+
+Installation
+------------
+
+The jEdit installation bundle comes with two locations from which edit modes
+are retrieved.  The first comes with the jEdit install bundle and should be
+left alone.  The second is for users' own edit modes.  The user area can be
+found using Utilities -> Settings Directory.
+
+The files in this repository can be dropped into the user area, although
+the cucumber\_\*.xml files will unfortunately need to be modefied slightly
+to get them working.  (See the Issues section below for the reason why.)
+
+See the location on the line starting with:
+
+> \<!ENTITY % cucumber_pe SYSTEM
+
+It must point to a valid location.  If you're having difficulties, check for
+errors under Utilities -> Troubleshooting -> Activity Log.
+
+*NOTE* Each of the locations has a "catalog" file that lists the modes and
+references an XML file that defines the rules for that mode.
+
+This project includes such file and you might already have
+your own file.  Please be careful not to overwrite yout own file if you have
+one.
 
 Adding Languages
 ----------------
