@@ -51,3 +51,11 @@ Issues
 I can't figure out how to get jEdit to load DTD components from a relative
 path.  It just defaults to looking in the APPPATH directory.  So I've had to
 hard code the location of cucumber.dtd in the XML files that use it.
+
+Credits
+-------
+
+This started from work by [Gabriel](http://rhaseventh.blogspot.ie/ "blog")
+[Medina](https://github.com/rha7dotcom/ "github")
+[posted](https://groups.google.com/d/topic/cukes/NGXp2wrKFK0/discussion)
+to the Cukes Google group.
