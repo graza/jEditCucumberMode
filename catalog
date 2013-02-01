@@ -1,13 +1,55 @@
 <?xml version="1.0"?>
 <!DOCTYPE MODES SYSTEM "catalog.dtd">
-
 <MODES>
-
-<!-- Add lines like the following, one for each edit mode you add: -->
-<!-- <MODE NAME="foo" FILE="foo.xml" FILE_NAME_GLOB="*.foo" /> -->
 <MODE NAME="cucumber" FILE="cucumber.xml" FILE_NAME_GLOB="*.feature" />
-<MODE NAME="cucumber_en_lol" FILE="cucumber_en_lol.xml" />
-<MODE NAME="cucumber_en" FILE="cucumber_en.xml" /> 
-<MODE NAME="cucumber_no" FILE="cucumber_no.xml" /> 
-<MODE NAME="cucumber_it" FILE="cucumber_it.xml" /> 
+<MODE NAME="cucumber_ar" FILE="cucumber_ar.xml" />
+<MODE NAME="cucumber_bg" FILE="cucumber_bg.xml" />
+<MODE NAME="cucumber_bm" FILE="cucumber_bm.xml" />
+<MODE NAME="cucumber_ca" FILE="cucumber_ca.xml" />
+<MODE NAME="cucumber_cs" FILE="cucumber_cs.xml" />
+<MODE NAME="cucumber_cy-GB" FILE="cucumber_cy-GB.xml" />
+<MODE NAME="cucumber_da" FILE="cucumber_da.xml" />
+<MODE NAME="cucumber_de" FILE="cucumber_de.xml" />
+<MODE NAME="cucumber_en" FILE="cucumber_en.xml" />
+<MODE NAME="cucumber_en-Scouse" FILE="cucumber_en-Scouse.xml" />
+<MODE NAME="cucumber_en-au" FILE="cucumber_en-au.xml" />
+<MODE NAME="cucumber_en-lol" FILE="cucumber_en-lol.xml" />
+<MODE NAME="cucumber_en-pirate" FILE="cucumber_en-pirate.xml" />
+<MODE NAME="cucumber_en-tx" FILE="cucumber_en-tx.xml" />
+<MODE NAME="cucumber_eo" FILE="cucumber_eo.xml" />
+<MODE NAME="cucumber_es" FILE="cucumber_es.xml" />
+<MODE NAME="cucumber_et" FILE="cucumber_et.xml" />
+<MODE NAME="cucumber_fa" FILE="cucumber_fa.xml" />
+<MODE NAME="cucumber_fi" FILE="cucumber_fi.xml" />
+<MODE NAME="cucumber_fr" FILE="cucumber_fr.xml" />
+<MODE NAME="cucumber_he" FILE="cucumber_he.xml" />
+<MODE NAME="cucumber_hi" FILE="cucumber_hi.xml" />
+<MODE NAME="cucumber_hr" FILE="cucumber_hr.xml" />
+<MODE NAME="cucumber_hu" FILE="cucumber_hu.xml" />
+<MODE NAME="cucumber_id" FILE="cucumber_id.xml" />
+<MODE NAME="cucumber_is" FILE="cucumber_is.xml" />
+<MODE NAME="cucumber_it" FILE="cucumber_it.xml" />
+<MODE NAME="cucumber_ja" FILE="cucumber_ja.xml" />
+<MODE NAME="cucumber_ko" FILE="cucumber_ko.xml" />
+<MODE NAME="cucumber_lt" FILE="cucumber_lt.xml" />
+<MODE NAME="cucumber_lu" FILE="cucumber_lu.xml" />
+<MODE NAME="cucumber_lv" FILE="cucumber_lv.xml" />
+<MODE NAME="cucumber_nl" FILE="cucumber_nl.xml" />
+<MODE NAME="cucumber_no" FILE="cucumber_no.xml" />
+<MODE NAME="cucumber_pl" FILE="cucumber_pl.xml" />
+<MODE NAME="cucumber_pt" FILE="cucumber_pt.xml" />
+<MODE NAME="cucumber_ro" FILE="cucumber_ro.xml" />
+<MODE NAME="cucumber_ru" FILE="cucumber_ru.xml" />
+<MODE NAME="cucumber_sk" FILE="cucumber_sk.xml" />
+<MODE NAME="cucumber_sr-Cyrl" FILE="cucumber_sr-Cyrl.xml" />
+<MODE NAME="cucumber_sr-Latn" FILE="cucumber_sr-Latn.xml" />
+<MODE NAME="cucumber_sv" FILE="cucumber_sv.xml" />
+<MODE NAME="cucumber_tl" FILE="cucumber_tl.xml" />
+<MODE NAME="cucumber_tr" FILE="cucumber_tr.xml" />
+<MODE NAME="cucumber_tt" FILE="cucumber_tt.xml" />
+<MODE NAME="cucumber_uk" FILE="cucumber_uk.xml" />
+<MODE NAME="cucumber_uz" FILE="cucumber_uz.xml" />
+<MODE NAME="cucumber_vi" FILE="cucumber_vi.xml" />
+<MODE NAME="cucumber_zh-CN" FILE="cucumber_zh-CN.xml" />
+<MODE NAME="cucumber_zh-TW" FILE="cucumber_zh-TW.xml" />
 </MODES>

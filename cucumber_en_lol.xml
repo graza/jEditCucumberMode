@@ -1,6 +1,9 @@
 <?xml version="1.0" ?>
 <!DOCTYPE MODE SYSTEM "xmode.dtd" [
-<!ENTITY % cucumber_pe SYSTEM "..\..\Users\gagnew\AppData\Roaming\jEdit\modes\cucumber.dtd">
+<!-- Need to un-comment one or other of these for jEdit to find the rest of the DTD -->
+<!-- ENTITY % cucumber_pe SYSTEM "..\..\Users\gagnew\AppData\Roaming\jEdit\modes\cucumber.dtd" -->
+<!-- ENTITY % cucumber_pe SYSTEM "C:\Program Files\Tools\jEdit\modes\cucumber.dtd" -->
+<!ENTITY % cucumber_pe SYSTEM "/Users/oldmac/Library/jEdit/modes/cucumber.dtd">
 <!ENTITY feature "OH HAI">
 <!ENTITY background "B4">
 <!ENTITY scenario "MISHUN">

@@ -4,12 +4,12 @@
 <!-- ENTITY % cucumber_pe SYSTEM "..\..\Users\gagnew\AppData\Roaming\jEdit\modes\cucumber.dtd" -->
 <!-- ENTITY % cucumber_pe SYSTEM "C:\Program Files\Tools\jEdit\modes\cucumber.dtd" -->
 <!ENTITY % cucumber_pe SYSTEM "/Users/oldmac/Library/jEdit/modes/cucumber.dtd">
-<!ENTITY feature "Feature|Business Need|Ability">
-<!ENTITY background "Background">
-<!ENTITY scenario "Scenario">
-<!ENTITY scenario_outline "Scenario Outline|Scenario Template">
-<!ENTITY examples "Examples|Scenarios">
-<!ENTITY step "Given |When |Then |And |But |\* ">
+<!ENTITY feature "Funkcionalnost|Mogućnost|Mogucnost|Osobina">
+<!ENTITY background "Kontekst|Osnova|Pozadina">
+<!ENTITY scenario "Scenario|Primer">
+<!ENTITY scenario_outline "Struktura scenarija|Skica|Koncept">
+<!ENTITY examples "Primeri|Scenariji">
+<!ENTITY step "Zadato |Zadate |Zatati |Kada |Kad |Onda |I |Ali |\* ">
 %cucumber_pe;
 ]>
 <MODE>

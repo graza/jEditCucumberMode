@@ -14,20 +14,204 @@
     IGNORE_CASE="FALSE"
     HIGHLIGHT_DIGITS="TRUE"
     NO_WORD_SEP="-&#37;">
+    <SPAN_REGEXP DELEGATE="cucumber_ar::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*ar$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_bg::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*bg$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_bm::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*bm$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_ca::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*ca$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_cs::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*cs$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_cy-GB::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*cy-GB$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_da::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*da$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_de::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*de$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
     <SPAN_REGEXP DELEGATE="cucumber_en::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
       <BEGIN>\A#\s*language\s*:\s*en$</BEGIN> 
       <END REGEXP="TRUE">\Z</END>
     </SPAN_REGEXP>
-    <SPAN_REGEXP DELEGATE="cucumber_en_lol::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
-      <BEGIN>\A#\s*language\s*:\s*en-lol$</BEGIN>
+    <SPAN_REGEXP DELEGATE="cucumber_en-Scouse::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*en-Scouse$</BEGIN> 
       <END REGEXP="TRUE">\Z</END>
     </SPAN_REGEXP>
-    <SPAN_REGEXP DELEGATE="cucumber_no::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
-      <BEGIN>\A#\s*language\s*:\s*no$</BEGIN>
+    <SPAN_REGEXP DELEGATE="cucumber_en-au::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*en-au$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_en-lol::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*en-lol$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_en-pirate::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*en-pirate$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_en-tx::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*en-tx$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_eo::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*eo$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_es::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*es$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_et::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*et$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_fa::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*fa$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_fi::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*fi$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_fr::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*fr$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_he::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*he$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_hi::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*hi$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_hr::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*hr$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_hu::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*hu$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_id::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*id$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_is::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*is$</BEGIN> 
       <END REGEXP="TRUE">\Z</END>
     </SPAN_REGEXP>
     <SPAN_REGEXP DELEGATE="cucumber_it::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
-      <BEGIN>\A#\s*language\s*:\s*it$</BEGIN>
+      <BEGIN>\A#\s*language\s*:\s*it$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_ja::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*ja$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_ko::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*ko$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_lt::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*lt$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_lu::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*lu$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_lv::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*lv$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_nl::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*nl$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_no::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*no$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_pl::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*pl$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_pt::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*pt$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_ro::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*ro$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_ru::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*ru$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_sk::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*sk$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_sr-Cyrl::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*sr-Cyrl$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_sr-Latn::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*sr-Latn$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_sv::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*sv$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_tl::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*tl$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_tr::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*tr$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_tt::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*tt$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_uk::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*uk$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_uz::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*uz$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_vi::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*vi$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_zh-CN::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*zh-CN$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_zh-TW::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*zh-TW$</BEGIN> 
       <END REGEXP="TRUE">\Z</END>
     </SPAN_REGEXP>
     <IMPORT DELEGATE="cucumber_en::gherkin"/>
