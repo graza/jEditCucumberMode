@@ -2,12 +2,12 @@
 <!DOCTYPE MODE SYSTEM "xmode.dtd" [
 <!-- Following full pathname is generated relative to where generate_xml_files is started from. -->
 <!ENTITY % cucumber_pe SYSTEM "C:/Users/gagnew/Desktop/Projects/jEditCucumberMode/cucumber.dtd">
-<!ENTITY feature "Ahoy matey!">
-<!ENTITY background "Yo-ho-ho">
-<!ENTITY scenario "Heave to">
-<!ENTITY scenario_outline "Shiver me timbers">
-<!ENTITY examples "Dead men tell no tales">
-<!ENTITY step "Gangway! |Blimey! |Let go and haul |Aye |Avast! |\* ">
+<!ENTITY feature "Hwaet|Hwæt">
+<!ENTITY background "Aer|Ær">
+<!ENTITY scenario "Swa">
+<!ENTITY scenario_outline "Swa hwaer swa|Swa hwær swa">
+<!ENTITY examples "Se the|Se þe|Se ðe">
+<!ENTITY step "Thurh |Þurh |Ðurh |Tha |Þa |Ða |Tha |Þa |Ða |Tha the |Þa þe |Ða ðe |Ond |7 |Ac |\* ">
 %cucumber_pe;
 ]>
 <MODE>

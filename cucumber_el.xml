@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MODE SYSTEM "xmode.dtd" [
+<!-- Following full pathname is generated relative to where generate_xml_files is started from. -->
+<!ENTITY % cucumber_pe SYSTEM "C:/Users/gagnew/Desktop/Projects/jEditCucumberMode/cucumber.dtd">
+<!ENTITY feature "Δυνατότητα|Λειτουργία">
+<!ENTITY background "Υπόβαθρο">
+<!ENTITY scenario "Σενάριο">
+<!ENTITY scenario_outline "Περιγραφή Σεναρίου">
+<!ENTITY examples "Παραδείγματα|Σενάρια">
+<!ENTITY step "Δεδομένου |Δεδομένου ότι |Όταν |Τότε |Και |Αλλά |\* ">
+%cucumber_pe;
+]>
+<MODE>
+&props;
+&gherkin_rules;
+</MODE>

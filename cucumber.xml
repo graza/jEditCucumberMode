@@ -46,6 +46,10 @@
       <BEGIN>\A#\s*language\s*:\s*de$</BEGIN> 
       <END REGEXP="TRUE">\Z</END>
     </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_el::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*el$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
     <SPAN_REGEXP DELEGATE="cucumber_en::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
       <BEGIN>\A#\s*language\s*:\s*en$</BEGIN> 
       <END REGEXP="TRUE">\Z</END>
@@ -60,6 +64,10 @@
     </SPAN_REGEXP>
     <SPAN_REGEXP DELEGATE="cucumber_en-lol::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
       <BEGIN>\A#\s*language\s*:\s*en-lol$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_en-old::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*en-old$</BEGIN> 
       <END REGEXP="TRUE">\Z</END>
     </SPAN_REGEXP>
     <SPAN_REGEXP DELEGATE="cucumber_en-pirate::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
@@ -92,6 +100,10 @@
     </SPAN_REGEXP>
     <SPAN_REGEXP DELEGATE="cucumber_fr::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
       <BEGIN>\A#\s*language\s*:\s*fr$</BEGIN> 
+      <END REGEXP="TRUE">\Z</END>
+    </SPAN_REGEXP>
+    <SPAN_REGEXP DELEGATE="cucumber_gl::gherkin" HASH_CHAR="#" TYPE="COMMENT1">
+      <BEGIN>\A#\s*language\s*:\s*gl$</BEGIN> 
       <END REGEXP="TRUE">\Z</END>
     </SPAN_REGEXP>
     <SPAN_REGEXP DELEGATE="cucumber_he::gherkin" HASH_CHAR="#" TYPE="COMMENT1">

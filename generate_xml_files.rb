@@ -33,6 +33,7 @@ modefile.puts <<-EOS
     NO_WORD_SEP="-&#37;">
 EOS
 
+dtd_pathname = File.expand_path('.', 'cucumber.dtd')
 Gherkin::I18n.all.each do |lang|
   File.open("cucumber_#{lang.iso_code}.xml", 'w') do |f|
     catalog.puts "<MODE NAME=\"cucumber_#{lang.iso_code}\" FILE=\"cucumber_#{lang.iso_code}.xml\" />"
@@ -45,10 +46,8 @@ Gherkin::I18n.all.each do |lang|
     f.puts <<-EOS
 <?xml version="1.0" ?>
 <!DOCTYPE MODE SYSTEM "xmode.dtd" [
-<!-- Need to un-comment one or other of these for jEdit to find the rest of the DTD -->
-<!-- ENTITY % cucumber_pe SYSTEM "..\\..\\Users\\gagnew\\AppData\\Roaming\\jEdit\\modes\\cucumber.dtd" -->
-<!-- ENTITY % cucumber_pe SYSTEM "C:\\Program Files\\Tools\\jEdit\\modes\\cucumber.dtd" -->
-<!ENTITY % cucumber_pe SYSTEM "/Users/oldmac/Library/jEdit/modes/cucumber.dtd">
+<!-- Following full pathname is generated relative to where generate_xml_files is started from. -->
+<!ENTITY % cucumber_pe SYSTEM "#{dtd_pathname}">
     EOS
     feature_element_keys.each do |keyword|
       f.puts "<!ENTITY #{keyword} \"#{lang.keywords(keyword).join("|")}\">"
